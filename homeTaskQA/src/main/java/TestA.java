@@ -11,7 +11,7 @@ public class TestA extends DriverConnect{
         login.fillPass();
         login.submit();
 
-        
+        driver.quit();
 
     }
 }
